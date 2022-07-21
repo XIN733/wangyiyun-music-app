@@ -90,6 +90,7 @@ export default{
 <style lang="less">
 .me-wrap{
     width: 7.5rem;
+    margin: 0 auto;
     min-height: 100vh;
     padding: 0 0.2rem;
     background-color: #eee;
