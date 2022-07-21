@@ -11,5 +11,8 @@ module.exports = {
       entry:'src/main.js',
       title:'小陈音乐'
     }
-  }
+  },
+  devServer: {
+    disableHostCheck: true, // 关闭host检查
+  },
 }
