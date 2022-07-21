@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-let baseUrl = 'http://localhost:3000'
+// let baseUrl = 'http://localhost:3000'
+let baseUrl = 'http://music.cpengx.cn'
 
 // 获取轮播图api, type:资源类型 ,  0:pc  1:android  2:iphone  3:ipad
 export function getBanner(type=0){
