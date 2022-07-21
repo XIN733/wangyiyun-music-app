@@ -12,7 +12,8 @@
 
 // 打包配置
 module.exports = {
-  publicPath:'./',
+  // publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
+  publicPath: './',
   pages:{
     index:{
       entry:'src/main.js',
